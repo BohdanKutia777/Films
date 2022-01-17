@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Film</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+</head>
+<body class="page">
+    <header class="header page__header">
+        <h1 class="page__header__logo">Films library</h1>
+        <div class="page__container">
+            <a href="#" id="plus" class="page__header__add"><span class="page__header__plus">&#10006;</span>  Add new film</a>
+        </div>
+    </header>
+    <form action="#">
+        <div class="page__container page__bg">
+            <div class="form">
+                <input value="" id="indexSaveFilm" type="hidden">
+
+                <div>
+                    <label class="form__label" for="">Title</label>
+                    <input class="form__input" id="title" type="text">
+                </div>
+                
+                <div>
+                    <label class="form__label" for="">Year</label>
+                    <input class="form__input" id="year" type="text">
+                </div>
+            
+                <div>
+                    <label class="form__label" for="">Country</label>
+                    <input class="form__input" id="country" type="text">
+                </div>
+            
+                <div>
+                    <label class="form__label" for="">Genre</label>
+                    <input class="form__input" id="genre" type="text">
+                </div>
+            
+                <div>
+                    <label class="form__label" for="">Poster</label>
+                    <input class="form__input" id="poster" type="text">
+                </div>
+            
+                <div>
+                <label class="form__label" for="">Description</label>
+                <textarea class="form__textarea" name="" id="description" cols="30" rows="10"></textarea>
+                </div>
+                <button id="plusBut" class="form__btn1">Cancel</button> 
+                <button id="add" class="form__btn2">Add</button>
+                
+            </div>
+        </div>
+    </form> 
+
+    <main>
+        <section class="card">
+            <div id="films" class="page__container">
+
+            </div>
+        </section>
+
+
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="  crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
