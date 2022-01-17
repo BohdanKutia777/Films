@@ -1,2 +1,1 @@
-project check link -> 
-kutia1.nosovnc9.beget.tech
+# http://kutia1.nosovnc9.beget.tech/
